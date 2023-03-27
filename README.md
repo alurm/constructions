@@ -16,7 +16,7 @@ Haskell example (`()` is the unit): `putStrLn :: String -> IO ()`.
 
 ## Nil
 
-This type exists because it's value is different. Sometimes putting it somewhere causes an error.
+This type exists because it’s value is different. Sometimes putting it somewhere causes an error.
 
 ## Blank
 
@@ -116,7 +116,7 @@ Array and its length.
 
 ## Structure
 
-Can't be expanded after definition.
+Can’t be expanded after definition.
 
 Maps offsets (in the language: names) to structure elements.
 
