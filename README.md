@@ -16,7 +16,7 @@ Haskell example (`()` is the unit): `putStrLn :: String -> IO ()`.
 
 ## Nil
 
-This type exists because it's value is different. Sometimes putting it somewhere causes a error.
+This type exists because it's value is different. Sometimes putting it somewhere causes an error.
 
 ## Blank
 
@@ -54,6 +54,8 @@ Example: a pointer.
 
 ## Integer
 
+Imply specific representation in bits.
+
 ## Other numbers
 
 Floating point numbers, rational number, complex numbers, irrational numbers, etc.
@@ -72,7 +74,11 @@ https://en.wikipedia.org/wiki/Endianness
 
 ## Name
 
-Tcl exists there, it’s the only type there. Other data structures are built upon this. Interpreter optimizes as it can. Code is data, data is code.
+Array of bits. Sometimes with other strings attached (pun indented).
+
+Implies an isomorphism between names and bits. Example: UTF-8. Another example: some internal or external representation, enforced by a text editor, a language run time, and/or by an operating system.
+
+Tcl exists there, everything is a name (a string). Other data structures are built upon this. Interpreter optimizes as it can. Code is data, data is code.
 
 ## Linked list
 
@@ -97,6 +103,8 @@ Parameterized by array of types x, contains values of each of the types in x.
 ## Array
 
 Sometimes known as an array of one dimension.
+
+Sometimes terminated with a zero element.
 
 Parameterized by type of it’s elements.
 
