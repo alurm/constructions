@@ -10,13 +10,13 @@ This is a record of my understanding of this as of March of 2023.
 
 ## Unit
 
-This type exists because it’s value and type is unique.
+This type exists because its value and type is unique.
 
 Haskell example (`()` is the unit): `putStrLn :: String -> IO ()`.
 
 ## Nil
 
-This type exists because it’s value is different. Sometimes putting it somewhere causes an error.
+This type exists because its value is different. Sometimes putting it somewhere causes an error.
 
 ## Blank
 
@@ -80,9 +80,17 @@ Implies an isomorphism between names and bits. Example: UTF-8. Another example: 
 
 Tcl exists there, everything is a name (a string). Other data structures are built upon this. Interpreter optimizes as it can. Code is data, data is code.
 
+## Stack
+
+Parameterized by type of its elements. Allows pushing on top and popping from top.
+
+## Queue
+
+Parameterized by type of its elements. Allows pushing on top and popping from the bottom.
+
 ## Linked list
 
-Parameterized by type of it’s elements.
+Parameterized by type of its elements.
 
 Usually built upon pointers.
 
@@ -106,7 +114,7 @@ Sometimes known as an array of one dimension.
 
 Sometimes terminated with a zero element.
 
-Parameterized by type of it’s elements.
+Parameterized by type of its elements.
 
 Arrays is a dictionary from numbers to elements of the array.
 
@@ -180,7 +188,7 @@ Given type t, contain bunch of t. Can push something and take something out.
 
 Sometimes known as multidimensional arrays.
 
-Parameterized by it’s size (a tuple of n numbers) and element’s type.
+Parameterized by its size (a tuple of n numbers) and element’s type.
 
 Present in array languages: NumPy (?), APL, BQN, J, TensorFlow (?).
 
