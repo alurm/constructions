@@ -144,7 +144,7 @@ From perspective of a mathematician, dictionaries and functions are the same.
 
 ## Intersection
 
-Given n types, contains intersection of them. Contrains.
+Given n types, contains intersection of them. Constrains.
 
 ## Union
 
