@@ -104,6 +104,8 @@ They exist too, yes.
 
 Many immutable data structures use trees under the hood.
 
+Merkle trees are awesome, too.
+
 ## Tuple
 
 Parameterized by array of types x, contains values of each of the types in x.
@@ -138,17 +140,39 @@ Map names to values.
 
 Given types a and b, allows accessing both of them (commonly known as “left” and “right”).
 
+## Bijective dictionary
+
+Given types k and v, maps k to v, such that all mappings point to a different element.
+
+Bijections are trivially invertible.
+
+Example in Python: {0: "red", 1: "green", 2: "blue"}
+
+Counterexample: {0: "red", 1: "red"}.
+
 ## Dictionary
 
 Given k and v, maps k to v.
 
 Example: tables in Lua. Keys can be anything except nil and nan.
 
+## Log
+
+Given v, maps some time value to v.
+
+Useful for robustness (write ahead logs) and error detection.
+
+## Bijective function
+
 ## Function
 
 Given types k and v, maps k to v.
 
 From perspective of a mathematician, dictionaries and functions are the same.
+
+## Check sum
+
+Given type k, maps k to some check sum (hash).
 
 ## Intersection
 
@@ -211,3 +235,11 @@ What should happen in a language when illegal operations are performed?
 Do arrays make C dependently typed? Does sizeof make C dependently typed?
 
 What is the best way to represent functions as data?
+
+## To-do
+
+- Cryptography
+- Discrete mathematics
+- Type theory
+- Symbolic computation
+- Logic programming
